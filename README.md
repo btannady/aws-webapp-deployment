@@ -24,19 +24,19 @@ This project demonstrates the process of deploying a web application on AWS usin
 1. **Create an AWS Account**: If you don't already have one, [sign up for AWS](https://aws.amazon.com/).
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/aws-webapp-deployment.git
+	git clone https://github.com/your-username/aws-webapp-deployment.git
+   ```
 
-	3.	Install Dependencies: Make sure you have Python and Boto3 installed:
+3. **Install Dependencies**: Make sure you have Python and Boto3 installed:
+   ```bash
+	pip install boto3
+   ```
 
-		pip install boto3
-
-
-	4.	Configure AWS CLI: If you haven’t already, configure your AWS CLI with your credentials:
-
-   		aws configure
-
-
-	5.	Deploy the Web App: Follow the instructions in the project to deploy the web app to AWS.
+4. **Configure AWS CLI**: If you haven’t already, configure your AWS CLI with your credentials:
+   ```bash
+	aws configure
+   ```
+5. **Deploy the Web App**: Follow the instructions in the project to deploy the web app to AWS.
 
 ## Project Structure
 - app/: The source code for the web application.
