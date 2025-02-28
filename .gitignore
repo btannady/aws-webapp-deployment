@@ -1,6 +1,15 @@
+# Ignore Python bytecode files.
 __pycache__/
 *.pyc
+
+# Ignore environment variables file (if you have one).
 .env
-.venv/
+
+# Ignore virtual environment directory.
+venv/
+
+# Ignore log files.
 *.log
-.DS_Store  # For macOS users.
+
+# For macOS users.
+.DS_Store
