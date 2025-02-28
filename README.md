@@ -38,18 +38,18 @@ This project demonstrates the process of deploying a web application on AWS usin
 
 	5.	Deploy the Web App: Follow the instructions in the project to deploy the web app to AWS.
 
-Project Structure
+## Project Structure
 - app/: The source code for the web application.
 - scripts/: Automation scripts to handle the deployment process.
 - config/: Configuration files for AWS services (e.g., EC2, S3, etc.).
 - README.md: This file.
 
-Future Enhancements
+## Future Enhancements
 - Implement a fully automated CI/CD pipeline with AWS CodePipeline.
 - Add monitoring and logging using AWS CloudWatch.
 - Explore containerization with Docker and deploy on ECS or EKS.
 - Improve security by integrating AWS IAM best practices and monitoring.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
