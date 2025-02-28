@@ -28,27 +28,27 @@ This project demonstrates the process of deploying a web application on AWS usin
 
 	3.	Install Dependencies: Make sure you have Python and Boto3 installed:
 
-pip install boto3
+		pip install boto3
 
 
 	4.	Configure AWS CLI: If you haven’t already, configure your AWS CLI with your credentials:
 
-aws configure
+   		aws configure
 
 
 	5.	Deploy the Web App: Follow the instructions in the project to deploy the web app to AWS.
 
 Project Structure
-	•	app/: The source code for the web application.
-	•	scripts/: Automation scripts to handle the deployment process.
-	•	config/: Configuration files for AWS services (e.g., EC2, S3, etc.).
-	•	README.md: This file.
+- app/: The source code for the web application.
+- scripts/: Automation scripts to handle the deployment process.
+- config/: Configuration files for AWS services (e.g., EC2, S3, etc.).
+- README.md: This file.
 
 Future Enhancements
-	•	Implement a fully automated CI/CD pipeline with AWS CodePipeline.
-	•	Add monitoring and logging using AWS CloudWatch.
-	•	Explore containerization with Docker and deploy on ECS or EKS.
-	•	Improve security by integrating AWS IAM best practices and monitoring.
+- Implement a fully automated CI/CD pipeline with AWS CodePipeline.
+- Add monitoring and logging using AWS CloudWatch.
+- Explore containerization with Docker and deploy on ECS or EKS.
+- Improve security by integrating AWS IAM best practices and monitoring.
 
 License
 
