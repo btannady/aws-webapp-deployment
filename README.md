@@ -21,40 +21,35 @@ This project demonstrates the process of deploying a web application on AWS usin
 
 ## How to Set Up and Run
 
-### 1. Create an AWS Account
-If you don't already have one, [sign up for AWS](https://aws.amazon.com/).
+1. **Create an AWS Account**: If you don't already have one, [sign up for AWS](https://aws.amazon.com/).
+2. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/aws-webapp-deployment.git
 
-### 2. Clone the Repository
-Clone the project to your local machine:
-```bash
-git clone https://github.com/your-username/aws-webapp-deployment.git
+	3.	Install Dependencies: Make sure you have Python and Boto3 installed:
 
-### 3. Install Dependencies
-Make sure you have Python and Boto3 installed:
-'''bash
 pip install boto3
 
-### 4. Configure AWS CLI
-Configure your AWS CLI with your credentials (if you haven't already):
-'''bash
+
+	4.	Configure AWS CLI: If you haven’t already, configure your AWS CLI with your credentials:
+
 aws configure
 
-### 5. Deploy the Web App
-Follow the instructions in the project to deploy the web app to AWS.
 
-#### Project Structure
-- app/: The source code for the web application.
-- scripts/: Automation scripts to handle the deployment process.
-- config/: Configuration files for AWS services (e.g., EC2, S3, etc.).
-- README.md: This file.
+	5.	Deploy the Web App: Follow the instructions in the project to deploy the web app to AWS.
 
-### Future Enhancements
-- Implement a fully automated CI/CD pipeline with AWS CodePipeline.
-- Add monitoring and logging using AWS CloudWatch.
-- Explore containerization with Docker and deploy on ECS or EKS.
-- Improve security by integrating AWS IAM best practices and monitoring.
+Project Structure
+	•	app/: The source code for the web application.
+	•	scripts/: Automation scripts to handle the deployment process.
+	•	config/: Configuration files for AWS services (e.g., EC2, S3, etc.).
+	•	README.md: This file.
 
-### License
+Future Enhancements
+	•	Implement a fully automated CI/CD pipeline with AWS CodePipeline.
+	•	Add monitoring and logging using AWS CloudWatch.
+	•	Explore containerization with Docker and deploy on ECS or EKS.
+	•	Improve security by integrating AWS IAM best practices and monitoring.
+
+License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-This version of the README provides a clear structure for your project, along with setup instructions, project features, and potential future improvements. It is ready for you to paste into the README.md file of your GitHub repo.
